@@ -15,8 +15,8 @@ export default function App() {
     <div
       style={{
         "background-image": dark()
-          ? "url(./src/assets/pattern-dark.png)"
-          : "url(./src/assets/pattern.png)",
+          ? "url(pattern-dark.png)"
+          : "url(pattern.png)",
       }}
       class="flex flex-col overflow-hidden gap-4 items-center justify-between p-4 h-[100vh]"
     >
